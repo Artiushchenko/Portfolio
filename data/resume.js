@@ -8,7 +8,7 @@ import {
 	FaNodeJs,
 	FaPhp,
 	FaReact,
-	FaSass,
+	FaSass
 } from 'react-icons/fa'
 import { GrMysql } from 'react-icons/gr'
 import { IoLogoVue } from 'react-icons/io5'
@@ -20,7 +20,7 @@ import {
 	SiNuxtdotjs,
 	SiPostgresql,
 	SiRedux,
-	SiTailwindcss,
+	SiTailwindcss
 } from 'react-icons/si'
 
 /* ABOUT */
@@ -31,9 +31,9 @@ export const about = {
 	info: [
 		{
 			fieldName: 'E-mail',
-			fieldValue: 'kyrylo.artiushchenko@gmail.com',
-		},
-	],
+			fieldValue: 'kyrylo.artiushchenko@gmail.com'
+		}
+	]
 }
 
 /* EXPERIENCE */
@@ -45,24 +45,24 @@ export const experience = {
 		{
 			company: 'IBTMG | UA',
 			position: 'Frontend Developer',
-			duration: '07.2022 - 06.2023',
+			duration: '07.2022 - 06.2023'
 		},
 		{
 			company: 'IBTMG | UA',
 			position: 'Frontend Developer',
-			duration: '07.2023 - 12.2023',
+			duration: '07.2023 - 12.2023'
 		},
 		{
 			company: 'Palmo | UA',
 			position: 'Full Stack Developer',
-			duration: '06.2024 - Present',
+			duration: '06.2024 - 11.2025'
 		},
 		{
 			company: 'Jaffle | AU',
 			position: 'Full Stack Developer',
-			duration: '03.2025 - 06.2025',
-		},
-	],
+			duration: '03.2025 - 06.2025'
+		}
+	]
 }
 
 /* EDUCATION */
@@ -74,14 +74,14 @@ export const education = {
 		{
 			institution: 'Donbass State Engineering Academy',
 			degree: 'Bachelor of Computer Science',
-			duration: '2020 - 2024',
+			duration: '2020 - 2024'
 		},
 		{
 			institution: 'Kharkiv National University of Radio Electronics',
 			degree: 'Master of Computer Science',
-			duration: '2024 - 2025',
-		},
-	],
+			duration: '2024 - 2025'
+		}
+	]
 }
 
 /* SKILLS */
@@ -91,83 +91,83 @@ export const skills = {
 	skillList: [
 		{
 			name: 'HTML 5',
-			icon: <FaHtml5 />,
+			icon: <FaHtml5 />
 		},
 		{
 			name: 'CSS 3',
-			icon: <FaCss3 />,
+			icon: <FaCss3 />
 		},
 		{
 			name: 'SASS',
-			icon: <FaSass />,
+			icon: <FaSass />
 		},
 		{
 			name: 'Tailwind CSS',
-			icon: <SiTailwindcss />,
+			icon: <SiTailwindcss />
 		},
 		{
 			name: 'JavaScript',
-			icon: <FaJsSquare />,
+			icon: <FaJsSquare />
 		},
 		{
 			name: 'TypeScript',
-			icon: <BiLogoTypescript />,
+			icon: <BiLogoTypescript />
 		},
 		{
 			name: 'PHP',
-			icon: <FaPhp />,
+			icon: <FaPhp />
 		},
 		{
 			name: 'Node JS',
-			icon: <FaNodeJs />,
+			icon: <FaNodeJs />
 		},
 		{
 			name: 'React JS',
-			icon: <FaReact />,
+			icon: <FaReact />
 		},
 		{
 			name: 'Vue JS',
-			icon: <IoLogoVue />,
+			icon: <IoLogoVue />
 		},
 		{
 			name: 'Next JS',
-			icon: <SiNextdotjs />,
+			icon: <SiNextdotjs />
 		},
 		{
 			name: 'Nuxt JS',
-			icon: <SiNuxtdotjs />,
+			icon: <SiNuxtdotjs />
 		},
 		{
 			name: 'Laravel',
-			icon: <FaLaravel />,
+			icon: <FaLaravel />
 		},
 		{
 			name: 'Nest JS',
-			icon: <SiNestjs />,
+			icon: <SiNestjs />
 		},
 		{
 			name: 'Firebase',
-			icon: <SiFirebase />,
+			icon: <SiFirebase />
 		},
 		{
 			name: 'Redux',
-			icon: <SiRedux />,
+			icon: <SiRedux />
 		},
 		{
 			name: 'MongoDB',
-			icon: <SiMongodb />,
+			icon: <SiMongodb />
 		},
 		{
 			name: 'PostgreSQL',
-			icon: <SiPostgresql />,
+			icon: <SiPostgresql />
 		},
 		{
 			name: 'MySQL',
-			icon: <GrMysql />,
+			icon: <GrMysql />
 		},
 		{
 			name: 'Docker',
-			icon: <FaDocker />,
-		},
-	],
+			icon: <FaDocker />
+		}
+	]
 }

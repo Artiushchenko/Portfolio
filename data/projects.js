@@ -7,19 +7,19 @@ export const projects = [
 			'Mobile web app enabling workout tracking, goal setting, and progress monitoring with personalized plans.',
 		stack: [
 			{
-				name: 'React JS',
+				name: 'React JS'
 			},
 			{
-				name: 'Node JS',
+				name: 'Node JS'
 			},
 			{
-				name: 'Prisma',
+				name: 'Prisma'
 			},
 			{
-				name: 'PostgreSQL',
-			},
+				name: 'PostgreSQL'
+			}
 		],
-		image: '/assets/work/thumb1.png',
+		image: '/assets/work/thumb1.png'
 	},
 	{
 		num: '02',
@@ -29,19 +29,19 @@ export const projects = [
 			'Online Cinema is a platform for streaming movies and TV shows on any device.',
 		stack: [
 			{
-				name: 'Next JS',
+				name: 'Next JS'
 			},
 			{
-				name: 'Redux Toolkit',
+				name: 'Redux Toolkit'
 			},
 			{
-				name: 'Nest JS',
+				name: 'Nest JS'
 			},
 			{
-				name: 'MongoDB',
-			},
+				name: 'MongoDB'
+			}
 		],
-		image: '/assets/work/thumb2.png',
+		image: '/assets/work/thumb2.png'
 	},
 	{
 		num: '03',
@@ -51,16 +51,16 @@ export const projects = [
 			'AI SaaS platform for image enhancement — upscaling, background removal, object deletion, and recoloring.',
 		stack: [
 			{
-				name: 'Next JS',
+				name: 'Next JS'
 			},
 			{
-				name: 'Cloudinary',
+				name: 'Cloudinary'
 			},
 			{
-				name: 'MongoDB Atlas',
-			},
+				name: 'MongoDB Atlas'
+			}
 		],
-		image: '/assets/work/thumb3.png',
+		image: '/assets/work/thumb3.png'
 	},
 	{
 		num: '04',
@@ -70,19 +70,19 @@ export const projects = [
 			'RVideo is a next-gen video platform offering seamless streaming of diverse creator content.',
 		stack: [
 			{
-				name: 'Next JS',
+				name: 'Next JS'
 			},
 			{
-				name: 'Redux Toolkit',
+				name: 'Redux Toolkit'
 			},
 			{
-				name: 'Nest JS',
+				name: 'Nest JS'
 			},
 			{
-				name: 'PostgreSQL',
-			},
+				name: 'PostgreSQL'
+			}
 		],
-		image: '/assets/work/thumb4.png',
+		image: '/assets/work/thumb4.png'
 	},
 	{
 		num: '05',
@@ -92,16 +92,16 @@ export const projects = [
 			'Simple banking app featuring authentication, balance tracking, and fund transfers.',
 		stack: [
 			{
-				name: 'Vanilla JS',
+				name: 'Vanilla JS'
 			},
 			{
-				name: 'Nest JS',
+				name: 'Nest JS'
 			},
 			{
-				name: 'PostgreSQL',
-			},
+				name: 'PostgreSQL'
+			}
 		],
-		image: '/assets/work/thumb5.png',
+		image: '/assets/work/thumb5.png'
 	},
 	{
 		num: '06',
@@ -111,15 +111,34 @@ export const projects = [
 			'An integrated business management platform designed to optimize key operational processes.',
 		stack: [
 			{
-				name: 'Vue JS',
+				name: 'Vue JS'
 			},
 			{
-				name: 'Laravel',
+				name: 'Laravel'
 			},
 			{
-				name: 'MySQL',
-			},
+				name: 'MySQL'
+			}
 		],
-		image: '/assets/work/thumb6.png',
+		image: '/assets/work/thumb6.png'
 	},
+	{
+		num: '07',
+		category: 'Full Stack',
+		title: 'Open Kharkiv',
+		description:
+			'A mobile platform providing seamless access to Kharkiv city services, starting with the Digital X-card for discounts and exclusive benefits.',
+		stack: [
+			{
+				name: 'Vue JS'
+			},
+			{
+				name: 'Laravel'
+			},
+			{
+				name: 'MySQL'
+			}
+		],
+		image: '/assets/work/thumb7.png'
+	}
 ]
