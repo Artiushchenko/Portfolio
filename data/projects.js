@@ -140,5 +140,18 @@ export const projects = [
 			}
 		],
 		image: '/assets/work/thumb7.png'
+	},
+	{
+		num: '08',
+		category: 'Front End',
+		title: 'X-Bank',
+		description:
+			'A modern digital banking platform for managing cards, balances, and money transfers in a clean and secure interface with built-in rewards.',
+		stack: [
+			{
+				name: 'React JS'
+			}
+		],
+		image: '/assets/work/thumb8.png'
 	}
 ]
