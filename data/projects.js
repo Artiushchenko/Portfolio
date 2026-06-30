@@ -153,5 +153,46 @@ export const projects = [
 			}
 		],
 		image: '/assets/work/thumb8.png'
+	},
+	{
+		num: '09',
+		category: 'Full Stack',
+		title: 'Task X',
+		description:
+			'Real-time collaborative task and project management platform with dashboards, roles, and team communication.',
+		stack: [
+			{
+				name: 'Next JS'
+			},
+			{
+				name: 'Jotai'
+			},
+			{
+				name: 'Supabase'
+			},
+			{
+				name: 'PostgreSQL'
+			}
+		],
+		image: '/assets/work/thumb9.png'
+	},
+	{
+		num: '10',
+		category: 'Full Stack',
+		title: 'Sky Track',
+		description:
+			'Real-time platform for tracking live aircraft in flight with map-based visualization and dynamic updates.',
+		stack: [
+			{
+				name: 'React JS'
+			},
+			{
+				name: 'Redux Toolkit'
+			},
+			{
+				name: 'Express JS'
+			}
+		],
+		image: '/assets/work/thumb10.png'
 	}
 ]
