@@ -2,6 +2,8 @@ import { BiLogoTypescript } from 'react-icons/bi'
 import {
 	FaCss3,
 	FaDocker,
+	FaGitAlt,
+	FaGitlab,
 	FaHtml5,
 	FaJsSquare,
 	FaLaravel,
@@ -13,7 +15,9 @@ import {
 import { GrMysql } from 'react-icons/gr'
 import { IoLogoVue } from 'react-icons/io5'
 import {
-	SiFirebase,
+	SiAdobephotoshop,
+	SiCanva,
+	SiFigma,
 	SiMongodb,
 	SiNestjs,
 	SiNextdotjs,
@@ -40,7 +44,7 @@ export const about = {
 export const experience = {
 	icon: '/assets/resume/badge.svg',
 	title: 'Experience',
-	description: "The road I've coded — my professional journey.",
+	description: "The road I've coded - my professional journey.",
 	items: [
 		{
 			company: 'IBTMG | UA',
@@ -69,7 +73,7 @@ export const experience = {
 export const education = {
 	icon: '/assets/resume/cap.svg',
 	title: 'Education',
-	description: 'From lecture halls to launchpads — the technical foundation.',
+	description: 'From lecture halls to launchpads - the technical foundation.',
 	items: [
 		{
 			institution: 'Donbass State Engineering Academy',
@@ -87,87 +91,128 @@ export const education = {
 /* SKILLS */
 export const skills = {
 	title: 'Technologies',
-	description: 'The engine under the hood — technologies in motion.',
-	skillList: [
+	description: 'The engine under the hood - technologies in motion.',
+	categories: [
 		{
-			name: 'HTML 5',
-			icon: <FaHtml5 />
+			name: 'Frontend',
+			skills: [
+				{
+					name: 'HTML5',
+					icon: <FaHtml5 />
+				},
+				{
+					name: 'CSS3',
+					icon: <FaCss3 />
+				},
+				{
+					name: 'SASS',
+					icon: <FaSass />
+				},
+				{
+					name: 'Tailwind CSS',
+					icon: <SiTailwindcss />
+				},
+				{
+					name: 'JavaScript',
+					icon: <FaJsSquare />
+				},
+				{
+					name: 'TypeScript',
+					icon: <BiLogoTypescript />
+				},
+				{
+					name: 'React',
+					icon: <FaReact />
+				},
+				{
+					name: 'Vue.js',
+					icon: <IoLogoVue />
+				},
+				{
+					name: 'Next.js',
+					icon: <SiNextdotjs />
+				},
+				{
+					name: 'Nuxt.js',
+					icon: <SiNuxtdotjs />
+				},
+				{
+					name: 'Redux',
+					icon: <SiRedux />
+				}
+			]
 		},
 		{
-			name: 'CSS 3',
-			icon: <FaCss3 />
+			name: 'Backend',
+			skills: [
+				{
+					name: 'Node.js',
+					icon: <FaNodeJs />
+				},
+				{
+					name: 'NestJS',
+					icon: <SiNestjs />
+				},
+				{
+					name: 'PHP',
+					icon: <FaPhp />
+				},
+				{
+					name: 'Laravel',
+					icon: <FaLaravel />
+				}
+			]
 		},
 		{
-			name: 'SASS',
-			icon: <FaSass />
+			name: 'Databases & Services',
+			skills: [
+				{
+					name: 'PostgreSQL',
+					icon: <SiPostgresql />
+				},
+				{
+					name: 'MySQL',
+					icon: <GrMysql />
+				},
+				{
+					name: 'MongoDB',
+					icon: <SiMongodb />
+				}
+			]
 		},
 		{
-			name: 'Tailwind CSS',
-			icon: <SiTailwindcss />
+			name: 'Tools',
+			skills: [
+				{
+					name: 'Git',
+					icon: <FaGitAlt />
+				},
+				{
+					name: 'GitLab',
+					icon: <FaGitlab />
+				},
+				{
+					name: 'Docker',
+					icon: <FaDocker />
+				}
+			]
 		},
 		{
-			name: 'JavaScript',
-			icon: <FaJsSquare />
-		},
-		{
-			name: 'TypeScript',
-			icon: <BiLogoTypescript />
-		},
-		{
-			name: 'PHP',
-			icon: <FaPhp />
-		},
-		{
-			name: 'Node JS',
-			icon: <FaNodeJs />
-		},
-		{
-			name: 'React JS',
-			icon: <FaReact />
-		},
-		{
-			name: 'Vue JS',
-			icon: <IoLogoVue />
-		},
-		{
-			name: 'Next JS',
-			icon: <SiNextdotjs />
-		},
-		{
-			name: 'Nuxt JS',
-			icon: <SiNuxtdotjs />
-		},
-		{
-			name: 'Laravel',
-			icon: <FaLaravel />
-		},
-		{
-			name: 'Nest JS',
-			icon: <SiNestjs />
-		},
-		{
-			name: 'Firebase',
-			icon: <SiFirebase />
-		},
-		{
-			name: 'Redux',
-			icon: <SiRedux />
-		},
-		{
-			name: 'MongoDB',
-			icon: <SiMongodb />
-		},
-		{
-			name: 'PostgreSQL',
-			icon: <SiPostgresql />
-		},
-		{
-			name: 'MySQL',
-			icon: <GrMysql />
-		},
-		{
-			name: 'Docker',
-			icon: <FaDocker />
+			name: 'Design',
+			skills: [
+				{
+					name: 'Figma',
+					icon: <SiFigma />
+				},
+				{
+					name: 'Adobe Photoshop',
+					icon: <SiAdobephotoshop />
+				},
+				{
+					name: 'Canva',
+					icon: <SiCanva />
+				}
+			]
 		}
 	]
 }
