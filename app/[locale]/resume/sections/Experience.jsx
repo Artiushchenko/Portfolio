@@ -1,18 +1,22 @@
 import { ScrollArea } from '@/components/ui/scroll-area'
-import { education } from '@/data/resume'
+import { resumeData } from '@/data/resume'
+import { useTranslations } from 'next-intl'
 
-const Education = () => {
+const Experience = () => {
+	const t = useTranslations('Resume.experience')
+	const { experience } = resumeData
+
 	return (
 		<div className='flex flex-col gap-[30px] text-center xl:text-left'>
-			<h3 className='text-4xl font-bold'>{education.title}</h3>
+			<h3 className='text-4xl font-bold'>{t('title')}</h3>
 
 			<p className='max-w-[600px] text-white/60 mx-auto xl:mx-0'>
-				{education.description}
+				{t('description')}
 			</p>
 
 			<ScrollArea className='h-[400px]'>
 				<ul className='grid grid-cols-1 lg:grid-cols-2 gap-[30px]'>
-					{education.items.map((item, index) => (
+					{experience.items.map((item, index) => (
 						<li
 							key={index}
 							className='bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1'
@@ -20,13 +24,12 @@ const Education = () => {
 							<span className='text-accent'>{item.duration}</span>
 
 							<h3 className='text-xl max-w-[260px] min-h-[60px] text-center lg:text-left'>
-								{item.degree}
+								{t(`positions.${item.position}`)}
 							</h3>
 
 							<div className='flex items-center gap-3'>
-								<p className='text-white/60 leading-normal'>
-									{item.institution}
-								</p>
+								<span className='w-[6px] h-[6px] rounded-full bg-accent' />
+								<p className='text-white/60'>{item.company}</p>
 							</div>
 						</li>
 					))}
@@ -36,4 +39,4 @@ const Education = () => {
 	)
 }
 
-export default Education
+export default Experience

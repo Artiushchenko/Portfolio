@@ -1,0 +1,77 @@
+{
+	"Home": {
+		"role": "Full Stack Developer",
+		"greeting": "Hello, I'm",
+		"name": "Kyrylo Artiushchenko",
+		"description": "I develop end-to-end digital solutions that align with business objectives, focusing on scalability, performance, and measurable impact.",
+		"downloadCv": "Download CV"
+	},
+	"Navigation": {
+		"home": "Home",
+		"resume": "Resume",
+		"work": "Work"
+	},
+	"Stats": {
+		"experience": "Years of experience",
+		"projects": "Projects completed",
+		"technologies": "Technologies mastered",
+		"customers": "Satisfied customers"
+	},
+	"Resume": {
+		"tabs": {
+			"experience": "Experience",
+			"education": "Education",
+			"skills": "Technologies",
+			"about": "Contact Information"
+		},
+		"about": {
+			"title": "Contact Information",
+			"description": "For any questions that may arise, please feel free to contact me via the email address provided below or through the social media links on the home page."
+		},
+		"experience": {
+			"title": "Experience",
+			"description": "The road I've coded - my professional journey.",
+			"positions": {
+				"frontendDeveloper": "Frontend Developer",
+				"fullStackDeveloper": "Full Stack Developer"
+			}
+		},
+		"education": {
+			"title": "Education",
+			"description": "From lecture halls to launchpads - the technical foundation.",
+			"degrees": {
+				"bachelor": "Bachelor of Computer Science",
+				"master": "Master of Computer Science"
+			},
+			"institutions": {
+				"donbassStateEngineeringAcademy": "Donbass State Engineering Academy",
+				"kharkivNationalUniversityRadioElectronics": "Kharkiv National University of Radio Electronics"
+			}
+		},
+		"skills": {
+			"title": "Technologies",
+			"description": "The engine under the hood - technologies in motion.",
+			"categories": {
+				"frontend": "Frontend",
+				"backend": "Backend",
+				"databases": "Databases",
+				"tools": "Tools",
+				"design": "Design"
+			}
+		}
+	},
+	"Work": {
+		"descriptions": {
+			"workoutApp": "Mobile web app enabling workout tracking, goal setting, and progress monitoring with personalized plans.",
+			"onlineCinema": "Online Cinema is a platform for streaming movies and TV shows on any device.",
+			"aimpress": "AI SaaS platform for image enhancement - upscaling, background removal, object deletion, and recoloring.",
+			"rvideo": "RVideo is a next-gen video platform offering seamless streaming of diverse creator content.",
+			"jsBank": "Simple banking app featuring authentication, balance tracking, and fund transfers.",
+			"jaffle": "An integrated business management platform designed to optimize key operational processes.",
+			"openKharkiv": "A mobile platform providing seamless access to Kharkiv city services, starting with the Digital X-card for discounts and exclusive benefits.",
+			"xBank": "A modern digital banking platform for managing cards, balances, and money transfers in a clean and secure interface with built-in rewards.",
+			"taskX": "Real-time collaborative task and project management platform with dashboards, roles, and team communication.",
+			"skyTrack": "Real-time platform for tracking live aircraft in flight with map-based visualization and dynamic updates."
+		}
+	}
+}

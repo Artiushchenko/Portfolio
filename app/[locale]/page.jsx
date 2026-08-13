@@ -6,28 +6,33 @@ import Photo from '@/components/Photo'
 import Social from '@/components/Social'
 import Stats from '@/components/Stats'
 
+import { useTranslations } from 'next-intl'
+
 const Home = () => {
+	const t = useTranslations('Home')
+
 	return (
 		<section className='h-full'>
 			<div className='container mx-auto h-full'>
 				<div className='flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24'>
 					{/* TEXT */}
 					<div className='text-center xl:text-left order-2 xl:order-none'>
-						<span className='text-xl'>Full Stack Developer</span>
+						<span className='text-xl'>{t('role')}</span>
 						<h1 className='h1 mb-6'>
-							Hello, I&apos;m
+							{t('greeting')}
 							<br />
-							<span className='text-accent'>Kyrylo Artiushchenko</span>
+							<span className='text-accent'>{t('name')}</span>
 						</h1>
 						<p className='max-w-[500px] mb-9 text-white/80'>
-							I develop end-to-end digital solutions that align with business
-							objectives, focusing on scalability, performance, and measurable
-							impact.
+							{t('description')}
 						</p>
 
 						{/* BUTTON AND SOCIALS */}
 						<div className='flex flex-col xl:flex-row items-center gap-8'>
-							<a href='/documents/resume.pdf' download>
+							<a
+								href='/documents/resume.pdf'
+								download
+							>
 								<Button
 									asChild
 									variant='outline'
@@ -35,7 +40,7 @@ const Home = () => {
 									className='uppercase'
 								>
 									<span className='flex items-center gap-2'>
-										<span>Download CV</span>
+										<span>{t('downloadCv')}</span>
 										<FiDownload className='text-xl' />
 									</span>
 								</Button>

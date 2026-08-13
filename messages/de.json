@@ -1,0 +1,77 @@
+{
+	"Home": {
+		"role": "Full-Stack-Entwickler",
+		"greeting": "Hallo, ich bin",
+		"name": "Kyrylo Artiushchenko",
+		"description": "Ich entwickle ganzheitliche digitale Lösungen, die sich an den Geschäftszielen orientieren und auf Skalierbarkeit, Performance und messbare Ergebnisse ausgerichtet sind.",
+		"downloadCv": "Lebenslauf herunterladen"
+	},
+	"Navigation": {
+		"home": "Startseite",
+		"resume": "Lebenslauf",
+		"work": "Projekte"
+	},
+	"Stats": {
+		"experience": "Jahre Erfahrung",
+		"projects": "Abgeschlossene Projekte",
+		"technologies": "Beherrschte Technologien",
+		"customers": "Zufriedene Kunden"
+	},
+	"Resume": {
+		"tabs": {
+			"experience": "Berufserfahrung",
+			"education": "Ausbildung",
+			"skills": "Technologien",
+			"about": "Kontaktinformationen"
+		},
+		"about": {
+			"title": "Kontaktinformationen",
+			"description": "Bei Fragen können Sie mich gerne über die unten angegebene E-Mail-Adresse oder über die sozialen Netzwerke auf der Startseite kontaktieren."
+		},
+		"experience": {
+			"title": "Berufserfahrung",
+			"description": "Mein beruflicher Weg - die Stationen meiner Entwicklung.",
+			"positions": {
+				"frontendDeveloper": "Frontend-Entwickler",
+				"fullStackDeveloper": "Full-Stack-Entwickler"
+			}
+		},
+		"education": {
+			"title": "Ausbildung",
+			"description": "Von den Hörsälen bis zur Praxis - meine technische Grundlage.",
+			"degrees": {
+				"bachelor": "Bachelor der Informatik",
+				"master": "Master der Informatik"
+			},
+			"institutions": {
+				"donbassStateEngineeringAcademy": "Staatliche Ingenieurakademie Donbass",
+				"kharkivNationalUniversityRadioElectronics": "Nationale Universität für Radioelektronik Charkiw"
+			}
+		},
+		"skills": {
+			"title": "Technologien",
+			"description": "Die Technologien, die meine Entwicklung antreiben.",
+			"categories": {
+				"frontend": "Frontend",
+				"backend": "Backend",
+				"databases": "Datenbanken",
+				"tools": "Werkzeuge",
+				"design": "Design"
+			}
+		}
+	},
+	"Work": {
+		"descriptions": {
+			"workoutApp": "Mobile Web-App zur Erfassung von Trainingseinheiten, Festlegung von Zielen und Überwachung des Fortschritts mit personalisierten Trainingsplänen.",
+			"onlineCinema": "Online-Cinema ist eine Plattform zum Streamen von Filmen und TV-Serien auf jedem Gerät.",
+			"aimpress": "KI-SaaS-Plattform zur Bildoptimierung - Hochskalierung, Hintergrundentfernung, Objektlöschung und Neufärbung.",
+			"rvideo": "RVideo ist eine moderne Videoplattform für nahtloses Streaming verschiedener Inhalte von Creatorn.",
+			"jsBank": "Eine einfache Banking-App mit Authentifizierung, Kontostandsübersicht und Geldüberweisungen.",
+			"jaffle": "Eine integrierte Business-Management-Plattform zur Optimierung wichtiger betrieblicher Prozesse.",
+			"openKharkiv": "Eine mobile Plattform für den einfachen Zugriff auf städtische Dienste von Charkiw, beginnend mit der digitalen X-Card für Rabatte und exklusive Vorteile.",
+			"xBank": "Eine moderne digitale Banking-Plattform zur Verwaltung von Karten, Kontoständen und Geldüberweisungen mit einer übersichtlichen und sicheren Benutzeroberfläche sowie integrierten Prämien.",
+			"taskX": "Echtzeit-Plattform für die kollaborative Verwaltung von Aufgaben und Projekten mit Dashboards, Rollen und Teamkommunikation.",
+			"skyTrack": "Echtzeit-Plattform zur Verfolgung von Flugzeugen während des Fluges mit kartenbasierter Visualisierung und dynamischen Aktualisierungen."
+		}
+	}
+}

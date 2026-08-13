@@ -1,32 +1,39 @@
 import Link from 'next/link'
 
 /* COMPONENTS */
+import LanguageSwitcher from './LanguageSwitcher'
 import MobileNav from './MobileNav'
 import Nav from './Nav'
 
 const Header = () => {
 	return (
-		<header className='py-8 xl:py-12 text-white'>
-			<div className='container mx-auto flex justify-between items-center'>
-				{/* LOGO */}
-				<Link href='/'>
-					<h1 className='text-4xl font-semibold'>
-						K<span className='text-accent'>.</span>A
-						<span className='text-accent'>.</span>
-					</h1>
-				</Link>
+		<>
+			<header className='py-8 xl:py-12 text-white'>
+				<div className='container mx-auto flex justify-between items-center'>
+					{/* LOGO */}
+					<Link href='/'>
+						<h1 className='text-4xl font-semibold'>
+							K<span className='text-accent'>.</span>A
+							<span className='text-accent'>.</span>
+						</h1>
+					</Link>
 
-				{/* DESKTOP NAVIGATION */}
-				<div className='hidden xl:flex items-center gap-8'>
-					<Nav />
-				</div>
+					{/* DESKTOP NAVIGATION */}
+					<div className='hidden xl:flex items-center gap-8'>
+						<Nav />
+					</div>
 
-				{/* MOBILE NAVIGATION */}
-				<div className='xl:hidden'>
-					<MobileNav />
+					{/* MOBILE NAVIGATION */}
+					<div className='xl:hidden'>
+						<MobileNav />
+					</div>
 				</div>
+			</header>
+
+			<div className='fixed right-6 top-6 z-50 xl:right-8 xl:top-8 hidden xl:block'>
+				<LanguageSwitcher />
 			</div>
-		</header>
+		</>
 	)
 }
 

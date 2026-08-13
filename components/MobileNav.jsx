@@ -1,15 +1,24 @@
 'use client'
 
-import Link from 'next/link'
-import { usePathname } from 'next/navigation'
+import { Link, usePathname } from '@/i18n/navigation'
 import { useState } from 'react'
 import { CiMenuFries } from 'react-icons/ci'
-import { Sheet, SheetContent, SheetTrigger } from './ui/sheet'
+import LanguageSwitcher from './LanguageSwitcher'
+import {
+	Sheet,
+	SheetContent,
+	SheetDescription,
+	SheetTitle,
+	SheetTrigger
+} from './ui/sheet'
 
 import { links } from '@/data/navigation'
+import { useTranslations } from 'next-intl'
 
 const MobileNav = () => {
+	const t = useTranslations('Navigation')
 	const pathName = usePathname()
+
 	const [open, setOpen] = useState(false)
 
 	return (
@@ -22,8 +31,14 @@ const MobileNav = () => {
 			</SheetTrigger>
 
 			<SheetContent className='flex flex-col '>
+				<SheetTitle className='sr-only'>Navigation</SheetTitle>
+
+				<SheetDescription className='sr-only'>
+					Mobile navigation menu
+				</SheetDescription>
+
 				{/* LOGO */}
-				<div className='mt-32 mb-40 text-center text-2xl'>
+				<div className='mt-32 mb-20 text-center text-2xl'>
 					<Link href='/'>
 						<h1 className='text-4xl font-semibold'>
 							K<span className='text-accent'>.</span>A
@@ -33,7 +48,7 @@ const MobileNav = () => {
 				</div>
 
 				{/* NAVIGATION */}
-				<nav className='flex flex-col justify-center items-center gap-8'>
+				<nav className='mb-20 flex flex-col justify-center items-center gap-8'>
 					{links.map((link, index) => {
 						return (
 							<Link
@@ -45,11 +60,16 @@ const MobileNav = () => {
 									'text-accent border-b-2 border-accent'
 								} text-xl hover:text-accent transition-all`}
 							>
-								{link.name}
+								{t(link.key)}
 							</Link>
 						)
 					})}
 				</nav>
+
+				{/* LANGUAGE */}
+				<div className='flex justify-center'>
+					<LanguageSwitcher />
+				</div>
 			</SheetContent>
 		</Sheet>
 	)

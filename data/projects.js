@@ -3,8 +3,7 @@ export const projects = [
 		num: '01',
 		category: 'Full Stack',
 		title: 'Workout App',
-		description:
-			'Mobile web app enabling workout tracking, goal setting, and progress monitoring with personalized plans.',
+		descriptionKey: 'workoutApp',
 		stack: [
 			{
 				name: 'React JS'
@@ -25,8 +24,7 @@ export const projects = [
 		num: '02',
 		category: 'Full Stack',
 		title: 'Online Cinema',
-		description:
-			'Online Cinema is a platform for streaming movies and TV shows on any device.',
+		descriptionKey: 'onlineCinema',
 		stack: [
 			{
 				name: 'Next JS'
@@ -47,8 +45,7 @@ export const projects = [
 		num: '03',
 		category: 'Full Stack',
 		title: 'AImpress',
-		description:
-			'AI SaaS platform for image enhancement — upscaling, background removal, object deletion, and recoloring.',
+		descriptionKey: 'aimpress',
 		stack: [
 			{
 				name: 'Next JS'
@@ -66,8 +63,7 @@ export const projects = [
 		num: '04',
 		category: 'Full Stack',
 		title: 'RVideo',
-		description:
-			'RVideo is a next-gen video platform offering seamless streaming of diverse creator content.',
+		descriptionKey: 'rvideo',
 		stack: [
 			{
 				name: 'Next JS'
@@ -88,8 +84,7 @@ export const projects = [
 		num: '05',
 		category: 'Full Stack',
 		title: 'JS Bank',
-		description:
-			'Simple banking app featuring authentication, balance tracking, and fund transfers.',
+		descriptionKey: 'jsBank',
 		stack: [
 			{
 				name: 'Vanilla JS'
@@ -107,8 +102,7 @@ export const projects = [
 		num: '06',
 		category: 'Full Stack',
 		title: 'Jaffle',
-		description:
-			'An integrated business management platform designed to optimize key operational processes.',
+		descriptionKey: 'jaffle',
 		stack: [
 			{
 				name: 'Vue JS'
@@ -126,8 +120,7 @@ export const projects = [
 		num: '07',
 		category: 'Full Stack',
 		title: 'Open Kharkiv',
-		description:
-			'A mobile platform providing seamless access to Kharkiv city services, starting with the Digital X-card for discounts and exclusive benefits.',
+		descriptionKey: 'openKharkiv',
 		stack: [
 			{
 				name: 'Vue JS'
@@ -145,8 +138,7 @@ export const projects = [
 		num: '08',
 		category: 'Front End',
 		title: 'X-Bank',
-		description:
-			'A modern digital banking platform for managing cards, balances, and money transfers in a clean and secure interface with built-in rewards.',
+		descriptionKey: 'xBank',
 		stack: [
 			{
 				name: 'React JS'
@@ -158,8 +150,7 @@ export const projects = [
 		num: '09',
 		category: 'Full Stack',
 		title: 'Task X',
-		description:
-			'Real-time collaborative task and project management platform with dashboards, roles, and team communication.',
+		descriptionKey: 'taskX',
 		stack: [
 			{
 				name: 'Next JS'
@@ -180,8 +171,7 @@ export const projects = [
 		num: '10',
 		category: 'Full Stack',
 		title: 'Sky Track',
-		description:
-			'Real-time platform for tracking live aircraft in flight with map-based visualization and dynamic updates.',
+		descriptionKey: 'skyTrack',
 		stack: [
 			{
 				name: 'React JS'

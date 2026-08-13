@@ -1,18 +1,18 @@
 export const stats = [
 	{
 		num: 5,
-		text: 'Years of experience'
+		key: 'experience'
 	},
 	{
 		num: 20,
-		text: 'Projects completed'
+		key: 'projects'
 	},
 	{
 		num: 30,
-		text: 'Technologies mastered'
+		key: 'technologies'
 	},
 	{
 		num: 12,
-		text: 'Satisfied customers'
+		key: 'customers'
 	}
 ]

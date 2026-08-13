@@ -1,6 +1,7 @@
 'use client'
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
+import { useTranslations } from 'next-intl'
 
 import { motion } from 'framer-motion'
 import About from './sections/About'
@@ -9,6 +10,8 @@ import Experience from './sections/Experience'
 import Skills from './sections/Skills'
 
 const Resume = () => {
+	const t = useTranslations('Resume')
+
 	return (
 		<motion.div
 			initial={{ opacity: 0 }}
@@ -24,13 +27,15 @@ const Resume = () => {
 					className='flex flex-col xl:flex-row gap-[60px]'
 				>
 					<TabsList className='flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6'>
-						<TabsTrigger value='experience'>Experience</TabsTrigger>
-						<TabsTrigger value='education'>Education</TabsTrigger>
-						<TabsTrigger value='skills'>Technologies</TabsTrigger>
-						<TabsTrigger value='about'>Contact Information</TabsTrigger>
+						<TabsTrigger value='experience'>{t('tabs.experience')}</TabsTrigger>
+
+						<TabsTrigger value='education'>{t('tabs.education')}</TabsTrigger>
+
+						<TabsTrigger value='skills'>{t('tabs.skills')}</TabsTrigger>
+
+						<TabsTrigger value='about'>{t('tabs.about')}</TabsTrigger>
 					</TabsList>
 
-					{/* CONTENT */}
 					<div className='w-full'>
 						<TabsContent
 							value='experience'

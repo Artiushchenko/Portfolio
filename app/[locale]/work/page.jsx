@@ -10,8 +10,10 @@ import WorkSliderButtons from '@/components/WorkSliderButtons'
 import Image from 'next/image'
 
 import { projects } from '@/data/projects'
+import { useTranslations } from 'next-intl'
 
 const Work = () => {
+	const t = useTranslations('Work.descriptions')
 	const [project, setProject] = useState(projects[0])
 
 	const handleSlideChange = swiper => {
@@ -46,12 +48,12 @@ const Work = () => {
 							</div>
 
 							{/* PROJECT CATEGORY */}
-							<h2 className='text-2xl font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize'>
-								{project.category} project
+							<h2 className='text-2xl font-bold leading-none text-white group-hover:text-accent transition-all duration-500'>
+								{project.category}
 							</h2>
 
 							{/* PROJECT DESCRIPTION */}
-							<p className='text-white/60'>{project.description}</p>
+							<p className='text-white/60'>{t(project.descriptionKey)}</p>
 
 							{/* STACK */}
 							<ul className='flex gap-4'>
