@@ -164,7 +164,7 @@ export const skills = {
 			]
 		},
 		{
-			name: 'Databases & Services',
+			name: 'Databases',
 			skills: [
 				{
 					name: 'PostgreSQL',

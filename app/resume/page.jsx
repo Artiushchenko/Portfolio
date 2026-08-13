@@ -16,7 +16,7 @@ const Resume = () => {
 				opacity: 1,
 				transition: { delay: 2.4, duration: 0.4, ease: 'easeIn' }
 			}}
-			className='min-h-[80vh] flex items-center justify-center py-12 xl:py-0'
+			className='min-h-[80vh] flex justify-center py-12 xl:py-0'
 		>
 			<div className='container mx-auto mb-12'>
 				<Tabs
@@ -31,7 +31,7 @@ const Resume = () => {
 					</TabsList>
 
 					{/* CONTENT */}
-					<div className='min-h-[70vh] w-full'>
+					<div className='w-full'>
 						<TabsContent
 							value='experience'
 							className='w-full'

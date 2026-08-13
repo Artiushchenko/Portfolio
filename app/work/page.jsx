@@ -27,7 +27,7 @@ const Work = () => {
 			initial={{ opacity: 0 }}
 			animate={{
 				opacity: 1,
-				transition: { delay: 2.4, duration: 0.4, ease: 'easeIn' },
+				transition: { delay: 2.4, duration: 0.4, ease: 'easeIn' }
 			}}
 			className='min-h-[80vh] flex flex-col justify-center py-12 xl:px-0'
 		>
@@ -57,7 +57,10 @@ const Work = () => {
 							<ul className='flex gap-4'>
 								{project.stack.map((item, index) => {
 									return (
-										<li key={index} className='text-md text-accent'>
+										<li
+											key={index}
+											className='text-md text-accent'
+										>
 											{item.name}
 
 											{/* REMOVE THE LAST COMMA */}
@@ -81,8 +84,11 @@ const Work = () => {
 						>
 							{projects.map((project, index) => {
 								return (
-									<SwiperSlide key={index} className='w-full'>
-										<div className='h-[460px] relative group flex justify-center items-center bg-pink-50/20'>
+									<SwiperSlide
+										key={index}
+										className='w-full'
+									>
+										<div className='h-[300px] xl:h-[460px] relative group flex justify-center items-center bg-pink-50/20'>
 											{/* OVERLAY */}
 											<div className='absolute top-0 bottom-0 w-full h-full bg-black/10 z-10'></div>
 
