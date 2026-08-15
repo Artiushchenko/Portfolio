@@ -5,17 +5,25 @@ import LanguageSwitcher from './LanguageSwitcher'
 import MobileNav from './MobileNav'
 import Nav from './Nav'
 
+import { useTranslations } from 'next-intl'
+
 const Header = () => {
+	const t = useTranslations('Additional')
+
 	return (
 		<>
 			<header className='py-8 xl:py-12 text-white'>
 				<div className='container mx-auto flex justify-between items-center'>
 					{/* LOGO */}
-					<Link href='/'>
-						<h1 className='text-4xl font-semibold'>
+					<Link
+						href='/'
+						aria-label={t('logo')}
+						draggable={false}
+					>
+						<span className='text-4xl font-semibold'>
 							K<span className='text-accent'>.</span>A
 							<span className='text-accent'>.</span>
-						</h1>
+						</span>
 					</Link>
 
 					{/* DESKTOP NAVIGATION */}

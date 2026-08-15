@@ -14,6 +14,8 @@ import { useTranslations } from 'next-intl'
 
 const Work = () => {
 	const t = useTranslations('Work.descriptions')
+	const tAdditional = useTranslations('Additional')
+
 	const [project, setProject] = useState(projects[0])
 
 	const handleSlideChange = swiper => {
@@ -100,7 +102,8 @@ const Work = () => {
 													src={project.image}
 													fill
 													className='object-cover'
-													alt='Project Image'
+													alt={tAdditional('projectImage')}
+													draggable={false}
 												/>
 											</div>
 										</div>

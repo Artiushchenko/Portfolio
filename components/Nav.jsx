@@ -10,7 +10,10 @@ const Nav = () => {
 	const pathName = usePathname()
 
 	return (
-		<nav className='flex gap-8'>
+		<nav
+			aria-label={t('mainNavigation')}
+			className='flex gap-8'
+		>
 			{links.map(link => {
 				return (
 					<Link
@@ -19,6 +22,7 @@ const Nav = () => {
 						className={`${
 							link.path === pathName && 'text-accent border-b-2 border-accent'
 						} font-medium hover:text-accent transition-all`}
+						draggable={false}
 					>
 						{t(link.key)}
 					</Link>

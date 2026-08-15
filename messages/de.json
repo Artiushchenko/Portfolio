@@ -1,4 +1,18 @@
 {
+	"Metadata": {
+		"home": {
+			"title": "Startseite",
+			"description": "Persönliches Portfolio."
+		},
+		"resume": {
+			"title": "Lebenslauf",
+			"description": "Erfahrung, Ausbildung, Fähigkeiten und beruflicher Werdegang."
+		},
+		"work": {
+			"title": "Projekte",
+			"description": "Eine Auswahl an Projekten und digitalen Produkten."
+		}
+	},
 	"Home": {
 		"role": "Full-Stack-Entwickler",
 		"greeting": "Hallo, ich bin",
@@ -7,6 +21,8 @@
 		"downloadCv": "Lebenslauf herunterladen"
 	},
 	"Navigation": {
+		"openMobileNavigation": "Navigation öffnen",
+		"mainNavigation": "Hauptnavigation",
 		"home": "Startseite",
 		"resume": "Lebenslauf",
 		"work": "Projekte"
@@ -73,5 +89,11 @@
 			"taskX": "Echtzeit-Plattform für die kollaborative Verwaltung von Aufgaben und Projekten mit Dashboards, Rollen und Teamkommunikation.",
 			"skyTrack": "Echtzeit-Plattform zur Verfolgung von Flugzeugen während des Fluges mit kartenbasierter Visualisierung und dynamischen Aktualisierungen."
 		}
+	},
+	"Additional": {
+		"logo": "Logo",
+		"projectImage": "Projektbild",
+		"previousProject": "Vorheriges Projekt",
+		"nextProject": "Nächstes Projekt"
 	}
 }

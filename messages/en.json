@@ -1,4 +1,18 @@
 {
+	"Metadata": {
+		"home": {
+			"title": "Home",
+			"description": "Personal portfolio."
+		},
+		"resume": {
+			"title": "Resume",
+			"description": "Experience, education, skills, and professional background."
+		},
+		"work": {
+			"title": "Work",
+			"description": "A selection of projects and digital products."
+		}
+	},
 	"Home": {
 		"role": "Full Stack Developer",
 		"greeting": "Hello, I'm",
@@ -7,6 +21,8 @@
 		"downloadCv": "Download CV"
 	},
 	"Navigation": {
+		"openMobileNavigation": "Open navigation",
+		"mainNavigation": "Main navigation",
 		"home": "Home",
 		"resume": "Resume",
 		"work": "Work"
@@ -22,10 +38,10 @@
 			"experience": "Experience",
 			"education": "Education",
 			"skills": "Technologies",
-			"about": "Contact Information"
+			"about": "Contact information"
 		},
 		"about": {
-			"title": "Contact Information",
+			"title": "Contact information",
 			"description": "For any questions that may arise, please feel free to contact me via the email address provided below or through the social media links on the home page."
 		},
 		"experience": {
@@ -73,5 +89,11 @@
 			"taskX": "Real-time collaborative task and project management platform with dashboards, roles, and team communication.",
 			"skyTrack": "Real-time platform for tracking live aircraft in flight with map-based visualization and dynamic updates."
 		}
+	},
+	"Additional": {
+		"logo": "Logo",
+		"projectImage": "Project image",
+		"previousProject": "Previous project",
+		"nextProject": "Next project"
 	}
 }

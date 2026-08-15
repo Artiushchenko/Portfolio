@@ -12,6 +12,9 @@ const Social = ({ containerStyles, iconStyles }) => {
 						href={item.path}
 						className={iconStyles}
 						target='_blank'
+						rel='noopener noreferrer'
+						aria-label={item.label}
+						draggable={false}
 					>
 						{item.icon}
 					</Link>

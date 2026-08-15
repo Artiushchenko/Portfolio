@@ -6,10 +6,11 @@ import Photo from '@/components/Photo'
 import Social from '@/components/Social'
 import Stats from '@/components/Stats'
 
-import { useTranslations } from 'next-intl'
+import { useLocale, useTranslations } from 'next-intl'
 
 const Home = () => {
 	const t = useTranslations('Home')
+	const locale = useLocale()
 
 	return (
 		<section className='h-full'>
@@ -30,8 +31,9 @@ const Home = () => {
 						{/* BUTTON AND SOCIALS */}
 						<div className='flex flex-col xl:flex-row items-center gap-8'>
 							<a
-								href='/documents/resume.pdf'
+								href={`/documents/resume-${locale}.pdf`}
 								download
+								draggable={false}
 							>
 								<Button
 									asChild
