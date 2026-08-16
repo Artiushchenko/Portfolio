@@ -4,20 +4,7 @@ export const projects = [
 		category: 'Full Stack',
 		title: 'Workout App',
 		descriptionKey: 'workoutApp',
-		stack: [
-			{
-				name: 'React JS'
-			},
-			{
-				name: 'Node JS'
-			},
-			{
-				name: 'Prisma'
-			},
-			{
-				name: 'PostgreSQL'
-			}
-		],
+		stack: ['react', 'node', 'prisma', 'postgresql'],
 		image: '/assets/work/thumb1.png'
 	},
 	{
@@ -25,20 +12,7 @@ export const projects = [
 		category: 'Full Stack',
 		title: 'Online Cinema',
 		descriptionKey: 'onlineCinema',
-		stack: [
-			{
-				name: 'Next JS'
-			},
-			{
-				name: 'Redux Toolkit'
-			},
-			{
-				name: 'Nest JS'
-			},
-			{
-				name: 'MongoDB'
-			}
-		],
+		stack: ['next', 'redux', 'nest', 'mongodb'],
 		image: '/assets/work/thumb2.png'
 	},
 	{
@@ -46,17 +20,7 @@ export const projects = [
 		category: 'Full Stack',
 		title: 'AImpress',
 		descriptionKey: 'aimpress',
-		stack: [
-			{
-				name: 'Next JS'
-			},
-			{
-				name: 'Cloudinary'
-			},
-			{
-				name: 'MongoDB Atlas'
-			}
-		],
+		stack: ['next', 'cloudinary', 'mongodb'],
 		image: '/assets/work/thumb3.png'
 	},
 	{
@@ -64,20 +28,7 @@ export const projects = [
 		category: 'Full Stack',
 		title: 'RVideo',
 		descriptionKey: 'rvideo',
-		stack: [
-			{
-				name: 'Next JS'
-			},
-			{
-				name: 'Redux Toolkit'
-			},
-			{
-				name: 'Nest JS'
-			},
-			{
-				name: 'PostgreSQL'
-			}
-		],
+		stack: ['next', 'redux', 'nest', 'postgresql'],
 		image: '/assets/work/thumb4.png'
 	},
 	{
@@ -85,17 +36,7 @@ export const projects = [
 		category: 'Full Stack',
 		title: 'JS Bank',
 		descriptionKey: 'jsBank',
-		stack: [
-			{
-				name: 'Vanilla JS'
-			},
-			{
-				name: 'Nest JS'
-			},
-			{
-				name: 'PostgreSQL'
-			}
-		],
+		stack: ['javascript', 'nest', 'postgresql'],
 		image: '/assets/work/thumb5.png'
 	},
 	{
@@ -103,17 +44,7 @@ export const projects = [
 		category: 'Full Stack',
 		title: 'Jaffle',
 		descriptionKey: 'jaffle',
-		stack: [
-			{
-				name: 'Vue JS'
-			},
-			{
-				name: 'Laravel'
-			},
-			{
-				name: 'MySQL'
-			}
-		],
+		stack: ['vue', 'laravel', 'mysql'],
 		image: '/assets/work/thumb6.png'
 	},
 	{
@@ -121,17 +52,7 @@ export const projects = [
 		category: 'Full Stack',
 		title: 'Open Kharkiv',
 		descriptionKey: 'openKharkiv',
-		stack: [
-			{
-				name: 'Vue JS'
-			},
-			{
-				name: 'Laravel'
-			},
-			{
-				name: 'MySQL'
-			}
-		],
+		stack: ['vue', 'laravel', 'mysql'],
 		image: '/assets/work/thumb7.png'
 	},
 	{
@@ -139,11 +60,7 @@ export const projects = [
 		category: 'Front End',
 		title: 'X-Bank',
 		descriptionKey: 'xBank',
-		stack: [
-			{
-				name: 'React JS'
-			}
-		],
+		stack: ['react'],
 		image: '/assets/work/thumb8.png'
 	},
 	{
@@ -151,20 +68,7 @@ export const projects = [
 		category: 'Full Stack',
 		title: 'Task X',
 		descriptionKey: 'taskX',
-		stack: [
-			{
-				name: 'Next JS'
-			},
-			{
-				name: 'Jotai'
-			},
-			{
-				name: 'Supabase'
-			},
-			{
-				name: 'PostgreSQL'
-			}
-		],
+		stack: ['next', 'jotai', 'supabase', 'postgresql'],
 		image: '/assets/work/thumb9.png'
 	},
 	{
@@ -172,17 +76,7 @@ export const projects = [
 		category: 'Full Stack',
 		title: 'Sky Track',
 		descriptionKey: 'skyTrack',
-		stack: [
-			{
-				name: 'React JS'
-			},
-			{
-				name: 'Redux Toolkit'
-			},
-			{
-				name: 'Express JS'
-			}
-		],
+		stack: ['react', 'redux', 'express'],
 		image: '/assets/work/thumb10.png'
 	}
 ]

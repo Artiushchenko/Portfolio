@@ -7,6 +7,8 @@ import {
 } from '@/components/ui/tooltip'
 
 import { resumeData } from '@/data/resume'
+import { technologies } from '@/data/technologies'
+
 import { useTranslations } from 'next-intl'
 
 const Skills = () => {
@@ -32,23 +34,35 @@ const Skills = () => {
 							</h4>
 
 							<ul className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4'>
-								{category.skills.map(skill => (
-									<li key={skill.name}>
-										<TooltipProvider delayDuration={100}>
-											<Tooltip>
-												<TooltipTrigger className='w-full h-[90px] sm:h-[100px] md:h-[110px] bg-[#232329] rounded-xl flex justify-center items-center group'>
-													<div className='text-5xl group-hover:text-accent transition-all duration-300'>
-														{skill.icon}
-													</div>
-												</TooltipTrigger>
+								{category.skills.map(skillKey => {
+									const technology = technologies[skillKey]
 
-												<TooltipContent>
-													<p>{skill.name}</p>
-												</TooltipContent>
-											</Tooltip>
-										</TooltipProvider>
-									</li>
-								))}
+									if (!technology) {
+										return null
+									}
+
+									const { name, icon: Icon, color } = technology
+
+									return (
+										<li key={skillKey}>
+											<TooltipProvider delayDuration={100}>
+												<Tooltip>
+													<TooltipTrigger className='w-full h-[90px] sm:h-[100px] md:h-[110px] bg-[#232329] rounded-xl flex justify-center items-center group'>
+														<Icon
+															aria-hidden='true'
+															className='text-5xl transition-all duration-300 group-hover:scale-110'
+															style={{ color }}
+														/>
+													</TooltipTrigger>
+
+													<TooltipContent>
+														<p>{name}</p>
+													</TooltipContent>
+												</Tooltip>
+											</TooltipProvider>
+										</li>
+									)
+								})}
 							</ul>
 						</div>
 					))}
