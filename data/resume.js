@@ -68,7 +68,15 @@ export const resumeData = {
 			},
 			{
 				name: 'backend',
-				skills: ['node', 'nest', 'php', 'laravel']
+				skills: [
+					'node',
+					'nest',
+					'php',
+					'laravel',
+					'express',
+					'supabase',
+					'firebase'
+				]
 			},
 			{
 				name: 'databases',

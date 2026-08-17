@@ -44,7 +44,7 @@ export const projects = [
 		category: 'Full Stack',
 		title: 'Jaffle',
 		descriptionKey: 'jaffle',
-		stack: ['vue', 'laravel', 'mysql'],
+		stack: ['nuxt', 'laravel', 'mysql'],
 		image: '/assets/work/thumb6.png'
 	},
 	{
@@ -60,7 +60,7 @@ export const projects = [
 		category: 'Front End',
 		title: 'X-Bank',
 		descriptionKey: 'xBank',
-		stack: ['react'],
+		stack: ['react', 'express'],
 		image: '/assets/work/thumb8.png'
 	},
 	{

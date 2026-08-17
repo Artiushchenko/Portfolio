@@ -23,6 +23,7 @@ import {
 	SiCloudinary,
 	SiExpress,
 	SiFigma,
+	SiFirebase,
 	SiMongodb,
 	SiNestjs,
 	SiNextdotjs,
@@ -136,6 +137,11 @@ export const technologies = {
 		name: 'Supabase',
 		icon: SiSupabase,
 		color: '#3ECF8E'
+	},
+	firebase: {
+		name: 'Firebase',
+		icon: SiFirebase,
+		color: '#FFCA28'
 	},
 	cloudinary: {
 		name: 'Cloudinary',
